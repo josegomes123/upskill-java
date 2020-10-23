@@ -6,19 +6,19 @@ public class aula02ex {
     public static void main(String[] args) {
         // 1.Obter a soma de dois números.
         System.out.println("Soma dos inteiros a e b");
-        System.out.println(soma(2,3));
+        System.out.println(soma(2, 3));
         // 2.Obter o quadrado de um número.
         System.out.println("Quadrado de um numero a");
         System.out.println(quadrado(2));
         // 3.Obter a diferença entre dois números
         System.out.println("Diferença entre dois numeros inteiros");
-        System.out.println(diff(3,4));
+        System.out.println(diff(3, 4));
         // 4.Obter a média entre dois números
         System.out.println("Media entre a e b");
-        System.out.println(average(6,4));
+        System.out.println(average(6, 4));
         // 5.Obter a área de um retângulo, dando os lados
         System.out.println("Área Rectangulo com lados de comprimento a e b");
-        System.out.println(areaRect(2,4));
+        System.out.println(areaRect(2, 4));
         // 6.Dada uma temperatura em Celcius, obtera temperatura em Fahrenheit.
         // Resolvido na aula02.java
         // 7. Dada uma temperatura em Celsius, obter a temperatura em kelvin.
@@ -58,8 +58,8 @@ public class aula02ex {
     }
 
     // Media entre a e b
-    static double average(int a, int b){
-        return (double) (a+b)/2;
+    static double average(int a, int b) {
+        return (double) (a + b) / 2;
     }
 
     // Área Rectangulo com lados de comprimento a e b
@@ -79,7 +79,7 @@ public class aula02ex {
 
     // Calcula os 23% de IVA de a
     static double iva(int a) {
-        return (double) 0.23 * a;
+        return 0.23 * a;
     }
 
     // Arredonda um numero a
@@ -88,14 +88,14 @@ public class aula02ex {
     }
 
     // Perimetro de um circulo com raio r
-    static double circleperimeter(int r){
+    static double circleperimeter(int r) {
         return 2 * Math.PI * r;
     }
 
     // Area do prisma com comprimento c, largura l e altura a
     // Formula area  A=2(lc+ac+al)
-    static int areaPrisma(int c, int l, int a){
-        return 2 * ((l*c)+(a*c)+(a*l));
+    static int areaPrisma(int c, int l, int a) {
+        return 2 * ((l * c) + (a * c) + (a * l));
     }
 }
 

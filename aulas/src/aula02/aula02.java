@@ -6,7 +6,7 @@ public class aula02 {
     public static void main(String[] args) {
         // ex1
         System.out.println("Soma dos multiplos de a, b e c");
-        System.out.println(sumMult(1,2,3));
+        System.out.println(sumMult(1, 2, 3));
         // ex2
         System.out.println("Area do circulo com raio r");
         System.out.println(circleArea(2));
@@ -29,10 +29,6 @@ public class aula02 {
     static double celsiusToF(int a) { // test
         return a * 1.8 + 32;
     }
-
-
-
-
 
 
 }
