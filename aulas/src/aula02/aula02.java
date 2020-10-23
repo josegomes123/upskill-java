@@ -2,8 +2,17 @@ package aula02;
 
 public class aula02 {
 
+    //Exercicios feitos durante a aula02
     public static void main(String[] args) {
-
+        // ex1
+        System.out.println("Soma dos multiplos de a, b e c");
+        System.out.println(sumMult(1,2,3));
+        // ex2
+        System.out.println("Area do circulo com raio r");
+        System.out.println(circleArea(2));
+        // ex3
+        System.out.println("Conversao Celsius para F");
+        System.out.println(celsiusToF(0));
     }
 
     // Soma dos multiplos de a, b e c
@@ -16,50 +25,11 @@ public class aula02 {
         return Math.PI * (r * r);
     }
 
-    //Converte Celsius para Fahrenheit
-    static int celsiusToF(int a) { // test
-        return a * 2 + 30;
+    // Converte Celsius para Fahrenheit
+    static double celsiusToF(int a) { // test
+        return a * 1.8 + 32;
     }
 
-    //Soma dos inteiros a e b
-    static int soma(int a, int b) {
-        return a + b;
-    }
-
-    //Quadrado de um numero a
-    static int quadrado(int a) {
-        return a * a;
-    }
-
-    // Diferença entre dois numeros inteiros
-    static int diff(int a, int b) {
-        return a - b;
-    }
-
-    // Área Rectangulo com 2 lados
-    static int areaRect(int ladoA, int ladoB) {
-        return ladoA * ladoB;
-    }
-
-    // Converte temperatura C (tempC) para Kelvin
-    static double celsiusToKelvin(int tempC) {
-        return tempC + 273.15;
-    }
-
-    // Converte a de cm para Inch
-    static double cmToInch(int a) {
-        return a * 0.393;
-    }
-
-    // Calcula IVA
-    static double iva(int a) {
-        return (double) 0.23 * a;
-    }
-
-    // Arredonda um numero a
-    static int arredondar(double a) {
-        return (int) Math.round(a);
-    }
 
 
 
