@@ -1,14 +1,15 @@
 package aula04;
 
 public class aula04 {
+    //exercicios feitos durante a aula04
     public static void main(String[] args) {
-        System.out.println("Num Par While");
+        System.out.println("Numero Par While");
         numparWhile();
-        System.out.println("Num Par Do While");
+        System.out.println("Numero Par Do While");
         numparDoWhile();
-        System.out.println("Num Par For ");
+        System.out.println("Numero Par For ");
         numparFor();
-        System.out.println("Num MAX num vector ");
+        System.out.println("Numero MAX num vector ");
         int[] v = new int[3];
         v[0]=1;
         v[1]=5;

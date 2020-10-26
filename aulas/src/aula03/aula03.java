@@ -19,9 +19,12 @@ public class aula03 {
         System.out.println("Maximo de 3 Numeros Introduzidos");
         int resultado = maiorNum();
         System.out.println("O numero maior dos 3 é " + resultado);
+        // Arredondamento
+        System.out.println("Arredondar - testes");
+        System.out.println(arredondar2(9.6));
     }
 
-    //  Arredondar sem Math.round()
+    // Arredondar sem Math.round()
     static int arredondar(double a) {
         // Se o Resto da divisao do proprio a pelo a truncado (convertido para int)
         // for maior que 0.5 entao arredonda para cima, caso contrario arredonda pra baixo
@@ -31,6 +34,12 @@ public class aula03 {
             return (int) a;
         }
     }
+
+    //Arredondar com o Math.round
+    public static int arredondar2(double a) {
+        return (int) Math.round(a);
+    }
+
 
     // Funcao getTemperature usando estructuras if / else
     static void getTemperature(int temp) {

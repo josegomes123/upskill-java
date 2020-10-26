@@ -7,34 +7,36 @@ import java.util.Scanner;
 public class aula03ex {
     //Exercicios de trabalho autonomo da aula03
     public static void main(String[] args) {
-        // ex1
+        // ex1 - testes
         int resultado1 = idade(1992);
         System.out.println("A Idade é " + resultado1);
-        //ex 2
+        //ex 2 - testes
         int resultado2 = divisao(3, 1);
         System.out.println("A divisao dos 2 numeros é " + resultado2);
-        //ex 3
+        //ex 3 - testes
         boolean resultado3 = isEven(4);
         System.out.println("O numero introduzido é par? " + resultado3);
-        //ex 4
+        //ex 4 - testes
         boolean resultado4 = isPositive(-45);
         System.out.println("O numero introduzido é positivo? " + resultado4);
-        //ex 5
-        //System.out.println("Introduza algo na consola:");
-        //devolve();
-        //ex 6
+        //ex 5 - testes
+        System.out.println("Introduza algo na consola:");
+        devolve();
+        //ex 6 - testes
         System.out.println("Introduza um veiculo na consola:");
         // Cria scanner para receber informação da consola
         Scanner keyboard = new Scanner(System.in);
         // Aguarda proxima informaçao da consola
         String veiculo = keyboard.nextLine();
         System.out.println("O " + veiculo + " tem " + getWheels(veiculo) + " rodas.");
-        //ex 7
+        //ex 7 - testes
         System.out.println("A nota é: " + getGrade(67));
         System.out.println("A nota é: " + getGrade(102));
-        //ex 8
+        //ex 8 - testes
         System.out.println("O mês dado é " + devolveMes(3));
-        //ex10
+        //ex 9 - testes
+        obterSigno();
+        //ex10 - testes
         ordenaNum ();
     }
 
@@ -167,26 +169,38 @@ public class aula03ex {
     //pedir o dia e o mês de nascimento ao utilizador e utilizar o if-else para ver todas as
     //possibilidades de signos.
     public static void obterSigno() {
-       /*Scanner s = new Scanner(system.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("Introduza o seu dia de nascimento:");
         int dia = s.nextInt();
         System.out.println("Introduza o numero do seu mês de nascimento:");
         int mes = s.nextInt();
-        if ((dia<=20 && mes == "janeiro") || (dia >= 21 && mes == "dezembro")){
-            return "Excelente";
-        } else if (nota<90 && nota >= 80) {
-            return "Muito Bom";
-        } else if (nota<80 && nota >= 70) {
-            return "Bom";
-        } else if (nota<70 && nota >= 50) {
-            return "Suficiente";
-        } else if (nota<50 && nota >= 30) {
-            return "Insuficiente";
-        } else if (nota<30 && nota >= 0) {
-            return "Muito Insuficiente";
+        if ((dia>=21 && mes == 3) || (dia <= 20 && mes == 4)){
+            System.out.println("O signo dado é Carneiro");
+        } else if ((dia>=21 && mes == 4) || (dia <= 20 && mes == 5)) {
+            System.out.println("O signo dado é Touro");
+        } else if ((dia>=21 && mes == 5) || (dia <= 20 && mes == 6)) {
+            System.out.println("O signo dado é Gémeos");
+        } else if ((dia>=21 && mes == 6) || (dia <= 21 && mes == 7)) {
+            System.out.println("O signo dado é Caranguejo");
+        } else if ((dia>=22 && mes == 7) || (dia <= 22 && mes == 8)) {
+            System.out.println("O signo dado é Leão");
+        } else if ((dia>=23 && mes == 8) || (dia <= 22 && mes == 9)) {
+            System.out.println("O signo dado é Virgem");
+        } else if ((dia>=23 && mes == 9) || (dia <= 22 && mes == 10)) {
+            System.out.println("O signo dado é Balança");
+        } else if ((dia>=23 && mes == 10) || (dia <= 21 && mes == 11)) {
+            System.out.println("O signo dado é Escorpião");
+        } else if ((dia>=22 && mes == 11) || (dia <= 21 && mes == 12)) {
+            System.out.println("O signo dado é Sagitário");
+        } else if ((dia>=22 && mes == 12) || (dia <= 20 && mes == 1)) {
+            System.out.println("O signo dado é Capricórnio");
+        } else if ((dia>=21 && mes == 1) || (dia <= 19 && mes == 2)) {
+            System.out.println("O signo dado é Aquário");
+        } else if ((dia>=20 && mes == 2) || (dia <= 20 && mes == 3)) {
+            System.out.println("O signo dado é Peixes");
         } else {
-            return "Nota Inválida";
-        }*/
+            System.out.println("A data introduzida nao é valida");;
+        }
     }
 
         //10. Criar uma função que peça ao utilizador três números e os coloque por ordem
@@ -205,6 +219,7 @@ public class aula03ex {
             // Ordena os numeros usando a função sort() da library Arrays
             Arrays.sort(arrayInts);
             // Converte a array em string para imprimir
+            System.out.println("Estes numeros em ordem crescente são:");
             System.out.println(Arrays.toString(arrayInts));
         }
     }
