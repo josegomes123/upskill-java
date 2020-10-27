@@ -13,8 +13,8 @@ package aula06.aula;
 
 public class Rectangulo {
     // Atributos
-    private int largura;
-    private int comprimento;
+    private final int largura;
+    private final int comprimento;
 
     //constructor rectangulo
     public Rectangulo(int comprimento, int largura){
@@ -50,17 +50,13 @@ public class Rectangulo {
     public double diagonal(){
         // teorema de pitagoras a = raiz (b^2 + c^2)
         // Uso Math.sqrt para fazer raiz quadrada e Math.pow para elevar num a 2
-        double diagonal = Math.sqrt(Math.pow(getLargura(), 2) + Math.pow(getComprimento(), 2));
-        return diagonal;
+        return Math.sqrt(Math.pow(getLargura(), 2) + Math.pow(getComprimento(), 2));
     }
 
     //verifica se é quadrado
     public boolean eQuadrado(){
-        if (getComprimento() == getLargura()){
-            return true;
-        } else {
-            return false;
-        }
+        // Retorna um booleano conforme os lados forem iguais
+        return getComprimento() == getLargura();
     }
 
     // Testes
@@ -76,5 +72,7 @@ public class Rectangulo {
         Rectangulo quadrado = new Rectangulo(2);
         // verifica se é quadrado
         System.out.println("É quadrado: " + quadrado.eQuadrado());
+        //Calcula diagonal
+        System.out.println(quadrado.diagonal());
     }
 }

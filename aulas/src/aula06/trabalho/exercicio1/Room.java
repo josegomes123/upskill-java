@@ -16,7 +16,7 @@ public class Room {
     // elementos e operações sobre os mesmos, mas como ainda nao foi falado irei usar Arrays (vectores)
     // mas operaçoes como adicionarAluno() e removerAluno() não irão funcionar totalmente como esperado
     Student[] listaAlunos;
-    private int alunosActuais = 0;
+    private int alunosActuais;
     private int capacidade;
     private int numSala;
 
@@ -26,6 +26,7 @@ public class Room {
         this.listaAlunos = new Student[capacidade];
         this.numSala = numSala;
         this.capacidade = capacidade;
+        this.alunosActuais = 0;
     }
 
     // Getters e Setters
