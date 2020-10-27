@@ -22,10 +22,10 @@ public class Testes {
         // Imprime informaçao da sala
         System.out.println(room1.toString());
         // Lista alunos na sala
-        System.out.println("antes de remover");
+        System.out.println("Antes de remover aluno");
         room1.listarAlunos();
         // Remove aluno e testa de novo
-        System.out.println("remover");
+        System.out.println("Depois de remover aluno 1");
         room1.removeAluno(aluno1);
         room1.listarAlunos();
     }
