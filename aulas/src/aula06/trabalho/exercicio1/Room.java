@@ -12,6 +12,9 @@ package aula06.trabalho.exercicio1;
 public class Room {
     // atributos
     private String nomeBloco;
+    // listaAlunos deveria ser uma Arraylist para permitir adicionar e remover dinamicamente
+    // elementos e operações sobre os mesmos, mas como ainda nao foi falado irei usar Arrays (vectores)
+    // mas operaçoes como adicionarAluno() e removerAluno() não irão funcionar totalmente como esperado
     Student[] listaAlunos;
     private int alunosActuais = 0;
     private int capacidade;
@@ -49,7 +52,7 @@ public class Room {
     }
 
     //Guarda aluno numa sala
-    public void addStudent(Student aluno){
+    public void adicionarAluno(Student aluno){
         // verifica se a sala já está cheia, só adiciona aluno se houver lugares vazios
         if (getAlunosActuais() <= getCapacidade()){
             listaAlunos[getAlunosActuais()] = aluno;
@@ -64,7 +67,7 @@ public class Room {
         // Obtenho o numero do aluno a remover
         int numAluno =  aluno.getNumAluno();
         // Percorro a array da sala que guarda os alunos (listaAlunos)
-        for (int i = 0; i<getCapacidade(); i++){
+        for (int i = 0; i<alunosActuais; i++){
             // Se o num aluno a remover for igual ao numero aluno da posiçao actual da lista, remove esse aluno
             if (numAluno == listaAlunos[i].getNumAluno()){
                 listaAlunos[i] = null;
@@ -76,8 +79,16 @@ public class Room {
     public void listarAlunos(){
         // Percorro a array da sala que guarda os alunos (listaAlunos)
         for (int i = 0; i<alunosActuais; i++){
-            // Usando o metodo toString() que defini na classe Student, imprimo cada aluno na lista
-            System.out.println(listaAlunos[i].toString());
+            // Se o aluno foi removido, retorna Aluno removido
+            // Idealmente isto deveria ser feito com ArrayLists que são listas dinamicas e
+            // permitem adicionar e remover elementos, mas para fazer com vectores (arrays)
+            // esta é uma forma de resolver o problema
+            if (listaAlunos[i] == null){
+                System.out.println("Aluno Removido");
+            } else {
+                // Usando o metodo toString() que defini na classe Student, imprimo cada aluno na lista
+                System.out.println(listaAlunos[i].toString());
+            }
         }
     }
 
