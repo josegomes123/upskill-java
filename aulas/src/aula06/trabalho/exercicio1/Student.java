@@ -1,6 +1,6 @@
 package aula06.trabalho.exercicio1;
 
-public class Student {
+public class Student<toString> {
     // atributos
     private int numAluno;
     private String nome;
@@ -29,6 +29,7 @@ public class Student {
     public String toString(){
         return "Aluno: " + getNome() + " Numero: " +getNumAluno() +  " Curso: " + getCurso();
     }
+
 
 
 
