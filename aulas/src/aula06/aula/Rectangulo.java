@@ -1,5 +1,16 @@
 package aula06.aula;
 
+// Desenvolva uma classe para representar retângulos, tendo em conta a sua largura e comprimento.
+//Os objetos retângulo deverão ser imutáveis, isto é, uma vez criado as suas dimensões não podem
+//ser alteradas.
+// Implemente o construtor e métodos que permitem obter o comprimento e a largura do retângulo
+// Defina um método construtor adicional que cria um quadrado.
+// Defina as funções que permitem obter as seguintes informações:
+//■ área
+//■ perímetro
+//■ comprimento da diagonal
+//■ se o retângulo é um quadrado
+
 public class Rectangulo {
     // Atributos
     private int largura;
@@ -16,7 +27,6 @@ public class Rectangulo {
         this.comprimento = lado;
         this.largura = lado;
     }
-
 
     // Getters
     public int getLargura(){
