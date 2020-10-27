@@ -20,6 +20,10 @@ UpSkill Java curriculum exercises, notes and anything else related.
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula04/aula04ex.java)
 - Aula 5 
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula05/aula05ex.java)
+- Aula 6 
+	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/aula) 
+	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/trabalho)
+	 
 
 
 ## Outros
