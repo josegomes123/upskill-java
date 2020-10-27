@@ -46,6 +46,10 @@ public class Person {
         this.nacionalidade = nacionalidade;
     }
 
+    // Imprime o nome completo seguido de idade
+    public String toString(){
+        return "Nome: " + this.getFirstName() + " " + this.getLastName() + " Idade: " + this.getIdade();
+    }
 
 
 
@@ -58,6 +62,9 @@ public class Person {
         // Cria e imprime nacionalidade para o objecto "joao"
         joao.setNacionalidade("Portuguesa");
         System.out.println(joao.getNacionalidade());
+        // Teste toString
+        System.out.println("Metodo toString:");
+        System.out.println(joao.toString());
 
     }
 
