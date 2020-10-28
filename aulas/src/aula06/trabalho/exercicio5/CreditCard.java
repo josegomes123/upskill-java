@@ -1,4 +1,4 @@
-package aula06.trabalho.exercicio5;
+package aula06.trabalho.Exercicio5;
 
 
 /*5. Implemente a classe CreditCard cujas instâncias deverão ter um comportamento
@@ -19,12 +19,10 @@ realizado
 e. String getMovimentos() - devolver a lista de movimentos efetuados sob a forma
 de uma String*/
 
-import java.util.Arrays;
-
 public class CreditCard {
     //Atributos
     private String titular;
-    private String numeroCartao; // Guardo em String para evitar usar Long
+    private int numero;
     private int mesVal;
     private int anoVal;
     private int maxDebit;
@@ -33,13 +31,12 @@ public class CreditCard {
     private int numMovimentos;
 
     // Constructor
-    public CreditCard(String titular, String numeroCartao, int mesVal, int anoVal, int maxDebit){
+    public CreditCard(String titular, int numero, int mesVal, int anoVal, int maxDebit){
         this.titular = titular;
-        this.numeroCartao = numeroCartao;
+        this.numero = numero;
         this.mesVal = mesVal;
         this.anoVal = anoVal;
         this.maxDebit = maxDebit;
-        this.gastos = 0; // Inicio os gastos a 0
         this.movimentos = new String[100];
         this.numMovimentos = 0;
         // Só irá guardar 100 movimentos,
@@ -57,15 +54,13 @@ public class CreditCard {
     // void pagarCredito(int pag) - efetuar um pagamento, isto é, abater o valor pag
     //ao montante em dívida
     public void pagarCredito(int pagamento){
-        // Subtraio aos gastos (valor em divida) o pagamento de crédito
-        gastos -= pagamento;
     }
 
     // void gastar(int quantia, String descr) - registar um movimento e atualizar o
     //montante gasto, verifica tambem se o gasto é permitido
     public void gastar(int quantia, String descr){
         // Se o gasto exceder o maximo de credito, entao a transação dá erro
-        if (saldo()-quantia< 0) {
+        if (saldo()+quantia>maxDebit) {
             System.out.println("Crédito Insuficiente para esta transação, só tem mais " + saldo() +  "€ disponíveis.");
         } else {
             // Soma a quantia aos gastos do cartão
@@ -79,17 +74,12 @@ public class CreditCard {
     //obterTalao() - devolver a String que corresponde ao último movimento realizado
     public String obterTalao(){
         //Usando o contador numMovimentos consigo aceder directamente ao ultimo movimento;
-        // Indice numMovimentos-1 para aceder ao indice0 ou seja primeira compra
-        return movimentos[numMovimentos-1];
+        return movimentos[numMovimentos];
     }
 
-    //getMovimentos()
-    // Decidi fazer retorno void e imprimir a lista de movimento directo na função porque torna as coisas
-    // mais faceis de intender
-    public void getMovimentos() {
-        // Percorro a lista de movimentos e imprimo cada movimento 1 a 1
-        for (int i=0; i<numMovimentos; i++){
-            System.out.println(movimentos[i]);
-        }
+    //getMovimentos() - devolver a lista de movimentos efetuados sob a forma
+    //de uma String*/
+    public String[] getMovimentos() {
+        return movimentos;
     }
 }
