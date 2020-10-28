@@ -23,7 +23,8 @@ UpSkill Java curriculum exercises, notes and anything else related.
 - Aula 6 
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/aula) 
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/trabalho)
-	 
+- Aula 7 
+	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula07/aula) 
 
 
 ## Outros
