@@ -1,4 +1,4 @@
-package aula07.aula.Exercicio1;
+package aula07.aula.exercicio1;
 
 public class GerentesDeLoja extends Empregados {
     private Boolean objectivosVendas;

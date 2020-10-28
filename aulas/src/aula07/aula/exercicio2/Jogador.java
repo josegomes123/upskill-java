@@ -1,4 +1,4 @@
-package aula07.aula.Exercicio2;
+package aula07.aula.exercicio2;
 
 /*Exercício 2 - Jogadores de Futebol
 Pretende-se escrever um programa para registar as estatísticas de jogadores de futebol.

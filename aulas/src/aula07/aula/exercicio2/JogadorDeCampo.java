@@ -1,4 +1,4 @@
-package aula07.aula.Exercicio2;
+package aula07.aula.exercicio2;
 
 public class JogadorDeCampo extends Jogador {
     //atributos da subclasse
