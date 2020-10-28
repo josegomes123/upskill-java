@@ -9,7 +9,7 @@ public class Testes {
         //Cria pessoas para adicionar como proprietarios
         Person pessoa1 = new Person("Tiago", "Lopes", 22);
         Person pessoa2 = new Person("Andre", "Silva", 27);
-        // Faz 75 Kms, testa se está ligado (se gastou combustivel)
+        // Faz 300 Kms, testa se está ligado (se gastou combustivel)
         carro1.run(300);
         //Verifica se esta ligado
         carro1.isLigado();
