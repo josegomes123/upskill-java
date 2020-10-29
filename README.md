@@ -3,6 +3,7 @@
 # Java Curriculum
 
 UpSkill Java curriculum exercises, notes and anything else related.
+
 **Work in progress**
 
 ## Aulas Teóricas
@@ -25,6 +26,10 @@ UpSkill Java curriculum exercises, notes and anything else related.
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/trabalho)
 - Aula 7 
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula07/aula) 
+- Aula 8 
+    - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula08/aula) 
+    - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula08/trabalho)
 
 
 ## Outros
+- [Documentação Java (JDK15)](https://docs.oracle.com/en/java/javase/15/)

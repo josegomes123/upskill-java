@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Peao extends PecaXadrez {
     // Adicionei um atributo cor ao peao porque interessa se a peça é
     // branca ou preta com o sistema de coordenadas que usei, porque se for branca
-    // anda 1 ou 2 casas para a frente (x+1) ou (x+2)
-    //e se for preta anda 1 ou 2 casas para tras (x-1) ou (x-1)
+    // anda 1 ou 2 casas para a frente (y+1) ou (y+2)
+    //e se for preta anda 1 ou 2 casas para tras (y-1) ou (y-1)
     private String cor;
 
     // Contructor
