@@ -20,5 +20,56 @@ e. Crie os métodos de acesso ( getters ) para os atributos de ContaCorrente e
 ContaPoupanca.*/
 
 
-public class ContaBancaria {
+import java.util.Scanner;
+
+public abstract class ContaBancaria {
+    private int senha;
+    private String numero; // para representar numero da conta com 10+ algarismos uso uma String
+    private double saldo;
+
+    public ContaBancaria(int senha, String numero, double saldo) {
+        this.senha = senha;
+        this.numero = numero;
+        this.saldo = saldo;
+    }
+
+
+    // Getters e Setters
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    //Funcoes abstractas da superclasse
+    public abstract void levanta(double valor);
+    public abstract void deposita(double valor);
+    public abstract void tiraExtracto();
+
+
+    // Altera a senha para uma nova se a senha introduzida por a correcta
+    public void alterarSenha(int senha) {
+        // Crio Scanner para receber a senha anterior e verificar se está correcta
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Para alterar a senha precisa de confirmar a sua senha");
+        System.out.println("Introduza a senha desta conta:");
+        int senhaInserida = keyboard.nextInt();
+        // Só troca a senha se a inserida for a que estiver activa actualmente no objecto
+        if (senhaInserida == this.senha) {
+            System.out.println("A sua senha foi alterada com sucesso!");
+            this.senha = senha;
+        } else {
+            System.out.println("Introduziu a senha errada.");
+            System.out.println("Nao foi possivel alterar a senha desta conta");
+        }
+    }
+
+
+
 }
