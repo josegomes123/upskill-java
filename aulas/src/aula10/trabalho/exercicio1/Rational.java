@@ -10,6 +10,15 @@ public class Rational implements Comparable<Rational> {
 
     }
 
+    // Testes Ex1
+    public static void main(String[] args) {
+        Rational r1 = new Rational(2, 3);
+        Rational r2 = new Rational(3, 4);
+        if (r1.compareTo(r2) > 0)
+            System.out.println(r1 + " is bigger than " + r2);
+        else
+            System.out.println(r1 + " is not bigger than " + r2);
+    }
 
     public int getNumerator() {
         return numerator;
@@ -33,20 +42,15 @@ public class Rational implements Comparable<Rational> {
         // Multiplica-se o 1º num pelo denominador do 2º
         // Multiplica-se o 2º num pelo denominador do 1º
         // E com isto obtem-se fracçoes sempre com o mesmo denominador
-        //int numerador1final =
-        return 0;
-
-    }
-
-    // Testes Ex1
-    public static void main(String[] args) {
-        Rational r1 = new Rational(2, 3);
-        Rational r2 = new Rational(3, 4);
-        if (r1.compareTo(r2) > 0)
-
-            System.out.println(r1 + " is bigger than " + r2);
+        // Assim é so necessario comparar os numeradores para saber o maior numero racional
+        int numerador1final = this.numerator * other.denominator;
+        int numerador2final = other.numerator * this.denominator;
+        if (numerador1final == numerador2final)
+            return 0;
+        else if (numerador1final > numerador2final)
+            return 1;
         else
-            System.out.println(r1 + " is not bigger than " + r2);
+            return -1;
     }
 
 }

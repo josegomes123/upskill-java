@@ -21,7 +21,7 @@ public class Casa {
         mapaEletro.put(divisao, listaEletro);
     }
 
-    public ArrayList<Eletrodomestico> getListaEletro(String divisao) {
+    public ArrayList<Eletrodomestico> getDivisao(String divisao) {
         return mapaEletro.get(divisao);
     }
 

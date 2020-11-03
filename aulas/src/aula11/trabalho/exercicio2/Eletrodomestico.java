@@ -13,6 +13,6 @@ public class Eletrodomestico {
 
     @Override
     public String toString() {
-        return tipo + " - " + marca + " - " + potencia;
+        return tipo + " / " + marca + " / " + potencia;
     }
 }
