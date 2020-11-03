@@ -19,7 +19,7 @@ UpSkill Java curriculum exercises, notes and anything else related.
  - Aula 4 
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula04/aula04.java) 
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula04/aula04ex.java)
-- Aula 5 
+- Aula 5
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula05/aula05ex.java)
 - Aula 6 
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/aula) 
@@ -29,6 +29,13 @@ UpSkill Java curriculum exercises, notes and anything else related.
 - Aula 8 
     - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula08/aula) 
     - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula08/trabalho)
+- Aula 9 (aula de duvidas)
+- Aula 10 
+    - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula10/aula) 
+    - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula10/trabalho)
+- Aula 11 
+    - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula11/aula) 
+    - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula11/trabalho)
 
 
 ## Outros
