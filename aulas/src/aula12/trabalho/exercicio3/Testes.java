@@ -1,6 +1,9 @@
 package aula12.trabalho.exercicio3;
 
 public class Testes {
+    // Testes Exercicio 3 aula 12
+
+    // Testa cada dia e verifica se é fim de semana usando a funçao definida no enum WeekDays
     public static void eFimdeSemana(WeekDays day) {
         // Testa se o enum é fim de semana
         if (day.isWeekEnd()) {
