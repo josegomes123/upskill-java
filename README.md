@@ -39,7 +39,7 @@ UpSkill Java curriculum exercises, notes and anything else related.
 - Aula 12 (Enumerados / Excepções)
     - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula12/aula) 
     - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula12/trabalho)
-- Aula 12 (Leitura e Escrita de Ficheiros)
+- Aula 13 (Leitura e Escrita de Ficheiros)
 	- [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula13) 
 
 
