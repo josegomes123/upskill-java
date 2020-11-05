@@ -1,4 +1,4 @@
-package aula07.aula.exercicio1;
+package aula07.exercicio1;
 
 /*Crie um programa que use uma lista de empregados para calcular o total dos salários a pagar de
 uma cadeia de lojas. A lista de empregados deve conter empregados (sem especialização),

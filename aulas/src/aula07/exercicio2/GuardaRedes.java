@@ -1,4 +1,4 @@
-package aula07.aula.exercicio2;
+package aula07.exercicio2;
 
 public class GuardaRedes extends Jogador {
     //atributos

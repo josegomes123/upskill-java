@@ -1,9 +1,0 @@
-João:23:Lisboa
-Maria:10:Porto
-Rita:21:Gaia
-José:39:Aveiro
-Manel:25:Portalegre
-Ana:33:Alenquer
-Alex:19:Sintra
-Jacinto:30:Guarda
-Vanderlei:45:Portimão

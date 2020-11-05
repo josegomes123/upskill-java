@@ -1,4 +1,4 @@
-package aula07.aula.exercicio1;
+package aula07.exercicio1;
 
 public class DirectoresRegionais extends Empregados {
     // Atributos

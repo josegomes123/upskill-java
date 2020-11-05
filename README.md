@@ -8,38 +8,38 @@ UpSkill Java curriculum exercises, notes and anything else related.
 
 ## Aulas Teóricas
 
- - Aula 1 
+ - Aula 1 (Introdução à linguagem)
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula01/aula01.java) 
- - Aula 2 
+ - Aula 2 (Variáveis / Tipos de Dados / Funções)
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula02/aula02.java)
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula02/aula02ex.java)
- - Aula 3 
+ - Aula 3 (Condições / Scanner)
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula03/aula03.java) 
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula03/aula03ex.java)
- - Aula 4 
+ - Aula 4 (Ciclos / Vectores)
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula04/aula04.java) 
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula04/aula04ex.java)
-- Aula 5
+- Aula 5 (Exercicios)
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula05/aula05ex.java)
-- Aula 6 
+- Aula 6 (Objectos)
 	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/aula) 
 	 - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula06/trabalho)
-- Aula 7 
-	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula07/aula) 
-- Aula 8 
+- Aula 7 (Herança / Polimorfismo)
+	 - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula07) 
+- Aula 8 (Classe abstracta)
     - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula08/aula) 
     - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula08/trabalho)
-- Aula 9 (aula de duvidas)
-- Aula 10 
+- Aula 9 (Aula de Duvidas)
+- Aula 10 (Interfaces / Comparadores)
     - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula10/aula) 
     - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula10/trabalho)
-- Aula 11 
+- Aula 11 (Collections / Listas)
     - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula11/aula) 
     - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula11/trabalho)
-- Aula 12 
+- Aula 12 (Enumerados / Excepções)
     - [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula12/aula) 
     - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula12/trabalho)
-- Aula 12 
+- Aula 12 (Leitura e Escrita de Ficheiros)
 	- [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula13) 
 
 
