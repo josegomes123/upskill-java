@@ -1,0 +1,4 @@
+12-CC-22 ;Ricardo;Motor;3200.0
+CC-11-22;Carmo;Vidro;100.0
+ZZ-ZZ-22;Andre;Pára-choques;500.0
+FF-66-22;Vitor Pereira;Pisca;600.0

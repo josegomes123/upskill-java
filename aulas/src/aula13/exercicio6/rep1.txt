@@ -1,0 +1,4 @@
+BB-11-22 ;João Silva;Motor;1000.0
+CC-11-22;Maria do Carmo;Vidro;100.0
+DD-11-22;Manuel Damásio;Pára-choques;500.0
+EE-11-22;Vitor Pereira;Embraiagem;500.0
