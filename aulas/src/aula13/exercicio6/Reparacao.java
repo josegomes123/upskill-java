@@ -1,4 +1,4 @@
-package aula13.aula.exercicio6;
+package aula13.exercicio6;
 
 public class Reparacao {
     private String matricula;

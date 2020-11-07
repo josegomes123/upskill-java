@@ -1,4 +1,4 @@
-package aula13.aula.exercicio4;
+package aula13.exercicio4;
 
 public class Lampada {
     private int potencia;

@@ -1,4 +1,4 @@
-package aula13.aula.exercicio6;
+package aula13.exercicio6;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,7 +18,7 @@ public class Testes {
             String localDir = System.getProperty("user.dir");
             // Obtem a localizaçao correcta do ficheiro juntando o caminho localDir + o caminho relativo do projecto em que se está a trabalhar
             // Este caminho é totalmente variável e depende da organizaçao do projecto de cada um e tambem se usam Mac, Windows ou Linux
-            File f = new File(localDir + "\\src\\aula13\\aula\\exercicio6\\" + nomeFicheiro);
+            File f = new File(localDir + "\\aulas\\src\\aula13\\exercicio6\\" + nomeFicheiro);
             // Abre o ficheiro com o Scanner
             Scanner fileScanner = new Scanner(f);
             // Enqaunto houver linhas pra fazer scan, continua
@@ -56,7 +56,7 @@ public class Testes {
         String localDir = System.getProperty("user.dir");
         // Obtem a localizaçao correcta do ficheiro juntando o caminho localDir + o caminho relativo do projecto em que se está a trabalhar
         // Este caminho é totalmente variável e depende da organizaçao do projecto de cada um e tambem se usam Mac, Windows ou Linux
-        File f = new File(localDir + "\\src\\aula13\\aula\\exercicio6\\" + nomeFicheiro);
+        File f = new File(localDir + "\\aulas\\src\\aula13\\exercicio6\\" + nomeFicheiro);
         try { // Trata o erro
             PrintWriter fileWriter = new PrintWriter(f);
             for (Reparacao r : this.listaReparacoes) {

@@ -1,4 +1,4 @@
-package aula13.aula.exercicio5;
+package aula13.exercicio5;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ public class Testes {
         String localDir = System.getProperty("user.dir");
         // Obtem a localizaçao correcta do ficheiro juntando o caminho localDir + o caminho relativo do projecto em que se está a trabalhar
         // Este caminho é totalmente variável e depende da organizaçao do projecto de cada um e tambem se usam Mac, Windows ou Linux
-        File f = new File(localDir + "\\src\\aula13\\aula\\exercicio5\\" + "mapaOriginal.txt");
+        File f = new File(localDir + "\\aulas\\src\\aula13\\exercicio5\\" + "mapaOriginal.txt");
         try {
             // Abre o ficheiro com o Scanner
             Scanner fileScanner = new Scanner(f);

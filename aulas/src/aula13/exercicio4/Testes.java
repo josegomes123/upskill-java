@@ -1,4 +1,4 @@
-package aula13.aula.exercicio4;
+package aula13.exercicio4;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,8 +8,6 @@ import java.util.Scanner;
 
 public class Testes {
     ArrayList<Lampada> listaLampadas = new ArrayList<Lampada>();
-    int f;
-
     // Adiciona lampadas à lista
     public void addLampada(Lampada l){
         listaLampadas.add(l);
@@ -50,7 +48,7 @@ public class Testes {
         String localDir = System.getProperty("user.dir");
         // Obtem a localizaçao correcta do ficheiro juntando o caminho localDir + o caminho relativo do projecto em que se está a trabalhar
         // Este caminho é totalmente variável e depende da organizaçao do projecto de cada um e tambem se usam Mac, Windows ou Linux
-        File f = new File(localDir + "\\src\\aula13\\aula\\exercicio4\\" + nomeFicheiro);
+        File f = new File(localDir + "\\aulas\\src\\aula13\\exercicio4\\" + nomeFicheiro);
         try { // Trata o erro
             PrintWriter fileWriter = new PrintWriter(f);
             for (Lampada l: this.listaLampadas) {
@@ -79,6 +77,5 @@ public class Testes {
         t.criarLampadas();
         t.criaFicheiro("lampadas.txt");
         t.mostraLampadas();
-        System.out.println(t.f);
     }
 }
