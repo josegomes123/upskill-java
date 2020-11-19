@@ -6,6 +6,13 @@ UpSkill Java curriculum exercises, notes and anything else related.
 
 **Work in progress**
 
+#Indice
+- [Aulas Teóricas](#Aulas-Teóricas)
+- [Testes](#Testes)
+
+
+<!-- toc -->
+
 ## Aulas Teóricas
 
  - Aula 1 (Introdução à linguagem)
@@ -41,7 +48,11 @@ UpSkill Java curriculum exercises, notes and anything else related.
     - [Trabalho Autónomo](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula12/trabalho)
 - Aula 13 (Leitura e Escrita de Ficheiros)
 	- [Exercicios Aula](https://github.com/ze-gomes/upskill-java/tree/main/aulas/src/aula13) 
+- Aula 14-24 (Projecto Roguelike)
 
+## Testes 
+- Teste Modelo 1
+    - [Resolução](https://github.com/ze-gomes/up)
 
 ## Outros
 - [Documentação Java (JDK15)](https://docs.oracle.com/en/java/javase/15/)

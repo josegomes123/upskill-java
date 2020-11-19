@@ -1,0 +1,9 @@
+Com uma interface é possivel ter multiplas heranças, com uma classe abstracta tal nao é possivel
+Implementa um nivel de abstraçao adicional que as classes abstractas nao permitem.
+
+As classes abstractas tambem podem ter variaveis não finais, enquanto as variaveis numa interface sao sempre public static final
+
+
+Mais info:
+https://stackoverflow.com/questions/18777989/how-should-i-have-explained-the-difference-between-an-interface-and-an-abstract
+https://www.geeksforgeeks.org/interfaces-in-java/
