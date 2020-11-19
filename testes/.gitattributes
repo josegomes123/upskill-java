@@ -1,0 +1,2 @@
+# Example of a `.gitattributes` file which reclassifies any files as Java:
+* linguist-language=Java
