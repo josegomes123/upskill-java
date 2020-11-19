@@ -6,7 +6,7 @@ UpSkill Java curriculum exercises, notes and anything else related.
 
 **Work in progress**
 
-#Indice
+##Indice
 - [Aulas Teóricas](#Aulas-Teóricas)
 - [Testes](#Testes)
 
@@ -52,7 +52,7 @@ UpSkill Java curriculum exercises, notes and anything else related.
 
 ## Testes 
 - Teste Modelo 1
-    - [Resolução](https://github.com/ze-gomes/up)
+    - [Resolução](/testes/src/testemodelo1/)
 
 ## Outros
 - [Documentação Java (JDK15)](https://docs.oracle.com/en/java/javase/15/)
