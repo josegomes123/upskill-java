@@ -6,7 +6,8 @@ UpSkill Java curriculum exercises, notes and anything else related.
 
 **Work in progress**
 
-##Indice
+# Indice
+
 - [Aulas Teóricas](#Aulas-Teóricas)
 - [Testes](#Testes)
 
