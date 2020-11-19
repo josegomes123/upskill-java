@@ -32,6 +32,7 @@ public class BestScoreUpdate {
                 } else {
                     // Escreve a linha no ficheiro
                     writer.println(s.toString());
+                    i++;
                 }
             }
         }
