@@ -34,6 +34,7 @@ public class HighScore {
                 " Won: " + won;
     }
 
+
     public static void main(String[] args) {
         HighScore s1 = new HighScore("s1", 323, false);
         HighScore s2 = new HighScore("s2", 116, false);
@@ -41,6 +42,8 @@ public class HighScore {
         HighScore s4 = new HighScore("s4", 323, true);
         HighScore s5 = new HighScore("s5", 116, true);
         HighScore s6 = new HighScore("s6", 223, true);
+        HighScore s7 = new HighScore("s7", 2123, true);
+        HighScore s8 = new HighScore("s8", 5, false);
 
         ArrayList<HighScore> array = new ArrayList<>();
         array.add(s1);
@@ -49,6 +52,8 @@ public class HighScore {
         array.add(s4);
         array.add(s5);
         array.add(s6);
+        array.add(s7);
+        array.add(s8);
         ComparatorOfHighScores comparator1 = new ComparatorOfHighScores();
         Collections.sort(array, comparator1);
         System.out.println("Ordenado por pontuaçao:");
