@@ -1,4 +1,4 @@
-package aula25.exercicio2;
+package aula24.exercicio2;
 
 public class Teste {
 

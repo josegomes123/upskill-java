@@ -1,4 +1,4 @@
-package aula25.exercicio1;
+package aula24.exercicio1;
 
 import java.io.Serializable;
 

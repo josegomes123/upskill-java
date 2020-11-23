@@ -1,9 +1,6 @@
-package aula25.exercicio1;
+package aula24.exercicio1;
 
 import java.io.*;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Testes {

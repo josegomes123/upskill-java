@@ -1,4 +1,4 @@
-package aula25.exerciciosLambdas;
+package aula24.exerciciosLambdas;
 
 public class Person {
     String name;

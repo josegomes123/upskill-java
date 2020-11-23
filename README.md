@@ -50,8 +50,8 @@ UpSkill Java curriculum exercises, notes and anything else related.
 - Aula 13 (Leitura e Escrita de Ficheiros)
 	- [Exercicios Aula](/aulas/src/aula13) 
 - Aula 14-24 (Projecto Roguelike)
-- Aula 25 (Serializacao e Genericidade)
-	- [Exercicios Aula](/aulas/src/aula25) 
+- Aula 24 (Serializacao e Genericidade)
+	- [Exercicios Aula](/aulas/src/aula24) 
 
 ## Testes 
 - Teste Modelo 1

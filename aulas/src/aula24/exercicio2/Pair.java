@@ -1,4 +1,4 @@
-package aula25.exercicio2;
+package aula24.exercicio2;
 
 // Classe com 2 tipos genericos
 public class Pair<K, V> {
