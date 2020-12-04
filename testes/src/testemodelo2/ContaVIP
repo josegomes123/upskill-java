@@ -1,0 +1,21 @@
+package testemodelo2;
+
+public class ContaVIP extends ContaBancaria {
+
+
+    @Override
+    public double saladioMedioEstimado() {
+        if (getLinhasMovimentos().size() == 0){
+            return 0.0;
+        }
+        Date firstDate = getLinhasMovimentos().getFirst().getDataValor();
+        for (Movimento m: getLinhasMovimentos()) {
+            int dias = Data.diferencaEmDiasEntre(firstDate, m.getDataValor());
+            saldo += movimento.getSaldoCorrente() * dias;
+            nDias += dias;
+            firstDate = movimento.getDataValor();
+        }
+        return saldo/nDias;
+    }
+
+}

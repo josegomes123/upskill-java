@@ -1,0 +1,13 @@
+package testemodelo2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Categoria {
+    private String nome;
+    private List<String> tags = new ArrayList<String>();
+    // Vers˜ao 1 P´agina 3 de 6
+    public Categoria(String nome) {
+        this.nome = nome;
+    }
+}

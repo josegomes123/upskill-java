@@ -1,0 +1,30 @@
+package testemodelo2;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public abstract class ContaBancaria {
+    private String id;
+    private String nomeCliente;
+    private List<Movimento> linhasDeMovimentos = new LinkedList<Movimento>();
+    public ContaBancaria(String id, String nomeCliente) {
+        this.id = id;
+        this.nomeCliente = nomeCliente;
+    }
+
+    public abstract double saladioMedioEstimado();
+
+    public double getSaldo(){
+        // Retorna o ultimo valor da linked list
+        return linhasDeMovimentos.getLast().getSaldo();
+    }
+
+
+    // Defina o m´etodo public double saldoM´edioEstimado() como abstracto na classe ContaBancaria
+    //Vers˜ao 1 P´agina 4 de 6
+    //e implemente-o adequadamente nas classes derivadas ContaPoupan¸ca e ContaVIP. Na primeira
+    //sobreposi¸c˜ao o resultado do m´etodo deve ser igual a metade do saldo atual da conta (o saldo atual
+    //´e o saldo do ´ultimo movimento, assumem-se ordenados por ordem crescente de data). Na segunda
+    //implementa¸c˜ao o resultado deve ser uma m´edia dos saldos pesada pelo n´umero de dias que cada um
+    //esteve depositado (para todos os movimentos registados).
+}

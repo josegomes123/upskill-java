@@ -1,0 +1,11 @@
+package testemodelo2;
+
+public class Movimento {
+    private Data data;
+    private Data dataValor;
+    private String descricao;
+    private double quantiaMovimentada;
+    private double saldoContabilistico;
+    private double saldoCorrente;
+    private Categoria categoria;
+}

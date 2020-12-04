@@ -1,0 +1,10 @@
+Pergunta 3 - Padroes de desenho
+
+Singleton - Classe que só pode ser instanciada uma vez, essa instancia é guardada estática
+na propria classe e o construtor é privado para que nao possam ser criadas mais instancias
+
+Factory - Método static na própria classe que cria objectos da mesma, Serve para criar objectos.
+
+Padrao MVC - Model View COntroller, separa as diferentes camadas de logica de uma aplicaçao,
+neste caso o view apresenta a informaçao ao utilizador e o model é o que manipula os dados.
+O Controller é o que comunica qualquer interaçao de user requests ou alteraçao de dados ou interfaces entre o controller e o model

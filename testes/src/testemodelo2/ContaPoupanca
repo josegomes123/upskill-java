@@ -1,0 +1,27 @@
+package testemodelo2;
+
+public class ContaPoupanca extends ContaBancaria {
+
+    public ContaPoupanca(String id, String nomeCliente){
+        super(id, nomeCliente);
+    }
+
+    @Override
+    public double saladioMedioEstimado() {
+        if (getLinhasMovimentos().size() == 0){
+            return 0.0;
+        }
+        return super.getSaldo()/2;
+    }
+
+    public double totalDeste(Data data1, Categoria cat){
+        double total = 0;
+       for(Movimento m: getLinhasMovimentos()){
+            if (m.getDataValue().depois(data) && m.getCategoria().equals(Categoria){
+                total += m.getQuantiaMovimentada();
+            }
+       }
+       return total;
+    }
+
+}

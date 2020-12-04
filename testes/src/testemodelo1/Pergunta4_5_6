@@ -104,8 +104,6 @@ public class Bat extends Enemy {
                 game.getHero().takeDamage(this.damage, this.type);
             }
         }
-
-
     }
 }
 

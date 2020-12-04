@@ -1,0 +1,15 @@
+package testemodelo2;
+
+public class Data {
+    public Data() { ... }
+    public Data(Data data) { ... }
+    public Data(int dia, int mes, int ano) { ... }
+    public Data(int dia, Month mes, int ano) { ... }
+    public boolean antes(Data d) { ... }
+    public boolean depois(Data d) { ... }
+    public int getAno() { ... }
+    public Month getMes() { ... }
+    public int getDia() { ... }
+    /** Calcula a diferen¸ca em dias entre as duas datas */
+    public static int diferencaEmDiasEntre(Data data1, Data data2) { ... }
+}
