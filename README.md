@@ -11,6 +11,7 @@ UpSkill Java curriculum exercicios, projectos, testes e relacionados.
     - [Projectos](#projectos)
     - [Testes](#testes)
   - [Módulo Base de Dados](#módulo-base-de-dados)
+  - [Módulo Laboratório de Programação](#Módulo-Laboratório-de-Programação)
   - [Outros](#outros)
   
   
@@ -57,20 +58,22 @@ UpSkill Java curriculum exercicios, projectos, testes e relacionados.
    - [Exercicios Aula](/aulas/src/aula25)  
 - *Aula 26-35 (Projecto Personal Finance Manager)*  
 
+## Módulo Base de Dados  
+- [Repositório BD](https://github.com/ze-gomes/upskill-databases)  
+## Módulo Laboratório de Programação
+- [Repositório Lab](https://github.com/ze-gomes/upskill-lab)  
+
 ### Projectos
 - **Aula 14-24 (Projecto Jogo Roguelike)**  
 	 - [Repositório Projecto 1](https://github.com/ze-gomes/upskill-roguelike)   
 - **Aula 26-35 (Projecto Personal Finance Manager)**  
-	 - [Repositório Projecto 2](https://github.com/ze-gomes/upskill-finance-manager)  
-	 
+	 - [Repositório Projecto 2](https://github.com/ze-gomes/upskill-finance-manager)  	 
 ### Testes 
 - Teste Modelo 1  
   - [Resolução](/testes/src/testemodelo1/)  
 - Teste Modelo 2  
   - [Resolução](/testes/src/testemodelo2/)  
        
-## Módulo Base de Dados  
-- [Repositório BD](https://github.com/ze-gomes/upskill-databases)  
-  
+
 ## Outros  
 - [Documentação Java (JDK15)](https://docs.oracle.com/en/java/javase/15/)
